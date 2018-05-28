@@ -1,5 +1,5 @@
 let expect      = require('chai').expect;
-let ProblemOne  = require('../../solutions/day_one/problem_one');
+let ProblemOne  = require('../../solutions/day_one/problem-one');
 
 describe('Sum of all digits that match the next digit in the list (circular)', () =>{
     [
