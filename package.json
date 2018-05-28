@@ -1,0 +1,31 @@
+{
+  "name": "advent-of-code-js",
+  "version": "1.0.0",
+  "description": "Advent of Code solutions - JavaScript",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianvirlan/advent-of-code-javascript-2017.git"
+  },
+  "keywords": [
+    "adventofcode",
+    "adventofcode2017",
+    "javascript"
+  ],
+  "author": "Sebastian Vîrlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianvirlan/advent-of-code-javascript-2017/issues"
+  },
+  "homepage": "https://github.com/sebastianvirlan/advent-of-code-javascript-2017#readme"
+}
