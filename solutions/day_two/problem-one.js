@@ -18,12 +18,11 @@
 class ProblemOne {
 
     constructor(input) {
-        this.input      = input.split(/\n+/).map(n => n.split(' ').map(Number));
-        this.matches    = [];
+        this.input = input.split(/\n+/).map(n => n.split(' ').map(Number));
     }
 
     resolve() {
-        return this.input.map(row => Math.max(...row) - Math.min(...row)).reduce((a,b) => a + b, 0);
+        return this.input.map(row => Math.max(...row) - Math.min(...row)).reduce((a, b) => a + b, 0);
     }
 }
 
