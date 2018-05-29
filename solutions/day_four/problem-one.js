@@ -7,6 +7,7 @@
 * aa bb cc dd aa is not valid - the word aa appears more than once.
 * aa bb cc dd aaa is valid - aa and aaa count as different words.
 * The system's full passphrase list is available as your puzzle input.
+
 * Return the number of valid passphrases
 */
 
